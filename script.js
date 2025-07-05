@@ -12,7 +12,7 @@ function getResult() {
     let yearsValue = years.value;
     interestValue /= 100;
     let rate = balanceValue * interestValue * yearsValue
-    result.innerText = `interest after ${yearsValue}years is ${rate.toFixed(2)}`;
+    result.innerText = `interest after ${yearsValue} years is ${rate.toFixed(2)}`;
     result.classList.add('totalreturn');
 
 }
